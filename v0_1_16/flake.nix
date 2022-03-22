@@ -9,13 +9,14 @@
   
   inputs.src-torch-v0_1_16.flake = false;
   inputs.src-torch-v0_1_16.owner = "fragcolor-xyz";
-  inputs.src-torch-v0_1_16.ref   = "refs/tags/v0.1.16";
+  inputs.src-torch-v0_1_16.ref   = "v0_1_16";
   inputs.src-torch-v0_1_16.repo  = "nimtorch";
   inputs.src-torch-v0_1_16.type  = "github";
   
   inputs."fragments".owner = "nim-nix-pkgs";
   inputs."fragments".ref   = "master";
   inputs."fragments".repo  = "fragments";
+  inputs."fragments".dir   = "";
   inputs."fragments".type  = "github";
   inputs."fragments".inputs.nixpkgs.follows = "nixpkgs";
   inputs."fragments".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
