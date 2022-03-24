@@ -21,6 +21,60 @@
         "type": "github"
       }
     },
+    "fragments": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "fragments-master": "fragments-master",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648081043,
+        "narHash": "sha256-iVCKf0lXV1bgfDMImQ0yqvskV/gtlx0hOvBc+4VEo0U=",
+        "owner": "nim-nix-pkgs",
+        "repo": "fragments",
+        "rev": "a9da1fc38fa06b48a2909652cec22bb4b9f5057e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "fragments",
+        "type": "github"
+      }
+    },
+    "fragments-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "fragments",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "fragments",
+          "nixpkgs"
+        ],
+        "src-fragments-master": "src-fragments-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1648081043,
+        "narHash": "sha256-iVCKf0lXV1bgfDMImQ0yqvskV/gtlx0hOvBc+4VEo0U=",
+        "owner": "nim-nix-pkgs",
+        "repo": "fragments",
+        "rev": "a9da1fc38fa06b48a2909652cec22bb4b9f5057e",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "fragments",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
@@ -35,11 +89,29 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
+        "fragments": "fragments",
         "nixpkgs": "nixpkgs",
-        "src-torch-v0_1_22": "src-torch-v0_1_22"
+        "src-nimtorch-v0_1_22": "src-nimtorch-v0_1_22"
       }
     },
-    "src-torch-v0_1_22": {
+    "src-fragments-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1643529141,
+        "narHash": "sha256-UI02pveW8c3bwseLqCLEdI9iIw4IO0YLot7hEgb45F0=",
+        "owner": "fragcolor-xyz",
+        "repo": "fragments",
+        "rev": "1cb96505c537e925e700aa65f6f0da95219dd866",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fragcolor-xyz",
+        "ref": "refs/heads/master",
+        "repo": "fragments",
+        "type": "github"
+      }
+    },
+    "src-nimtorch-v0_1_22": {
       "flake": false,
       "locked": {
         "lastModified": 1535694111,
