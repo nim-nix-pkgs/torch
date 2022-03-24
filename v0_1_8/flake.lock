@@ -26,45 +26,18 @@
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
-        "fragments-master": "fragments-master",
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107537,
-        "narHash": "sha256-tc936v3dnoaar9RNg9vbl+ZUFRhvyBTh1y6mcqHRvPw=",
-        "owner": "nim-nix-pkgs",
-        "repo": "fragments",
-        "rev": "1fd4220105a06bc0de8b672d9bbcfaf9036105d7",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "fragments",
-        "type": "github"
-      }
-    },
-    "fragments-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "fragments",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "fragments",
           "nixpkgs"
         ],
         "src-fragments-master": "src-fragments-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107537,
-        "narHash": "sha256-tc936v3dnoaar9RNg9vbl+ZUFRhvyBTh1y6mcqHRvPw=",
+        "lastModified": 1648163108,
+        "narHash": "sha256-+A1Kkz7nDEt5NbFBShvudUM1BqVwsOhrn0a5GQLhsec=",
         "owner": "nim-nix-pkgs",
         "repo": "fragments",
-        "rev": "1fd4220105a06bc0de8b672d9bbcfaf9036105d7",
+        "rev": "9651a64f77180c6497ba7f750dccf6a60af8834b",
         "type": "github"
       },
       "original": {
