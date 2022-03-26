@@ -11,6 +11,7 @@
   inputs.src-torch-v0_1_16.ref   = "refs/tags/v0.1.16";
   inputs.src-torch-v0_1_16.owner = "fragcolor-xyz";
   inputs.src-torch-v0_1_16.repo  = "nimtorch";
+  inputs.src-torch-v0_1_16.dir   = "";
   inputs.src-torch-v0_1_16.type  = "github";
   
   inputs."fragments".owner = "nim-nix-pkgs";

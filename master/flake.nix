@@ -11,6 +11,7 @@
   inputs.src-torch-master.ref   = "refs/heads/master";
   inputs.src-torch-master.owner = "fragcolor-xyz";
   inputs.src-torch-master.repo  = "nimtorch";
+  inputs.src-torch-master.dir   = "";
   inputs.src-torch-master.type  = "github";
   
   inputs."fragments".owner = "nim-nix-pkgs";
